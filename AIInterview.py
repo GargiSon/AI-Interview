@@ -1,7 +1,7 @@
 from groq import Groq
 import json
 
-client = Groq(api_key = "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")
+client = Groq(api_key = "Groq Key")
 
 def evaluate_response(response):
     evaluation = client.chat.completions.create(
